@@ -4,7 +4,7 @@ function HomePage() {
 
   const handleIncrement = () => {
     if (count === 10) {
-      alert("reached max limit ");
+     // alert("reached max limit ");
       return;
     }
     setCount(count + 1);
@@ -14,7 +14,7 @@ function HomePage() {
     setCount(count - 1);
   };
 
-  console.log("counter value", count);
+  //console.log("counter value", count);
   return (
     <div>
       Home Page
